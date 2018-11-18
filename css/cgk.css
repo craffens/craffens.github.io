@@ -1,13 +1,14 @@
 /* unvisited link */
 a:link,
 page-link {
-    color: #484848;
+    color: #488888;
+    text-decoration: none;
 }
 
 /* visited link */
 a:visited,
 page-link {
-    color: #484848;
+    color: #488888;
     text-decoration: none;
     
 }
@@ -15,16 +16,41 @@ page-link {
 /* mouse over link */
 a:hover,
 page-link {
-    color: #787878;
+    color: #488888;
     text-decoration: none;
 }
 
 /* selected link */
 a:active,
 page-link {
-    color: #787878;
+    color: #488888;
+    text-decoration: none;
 }
 
 p {
-  text-align: center;
+  text-align: justify;
+}
+
+.big-books {
+    max-width: 10rem;
+}
+
+.blurb {
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: .9rem;
+    margin-top: .5rem;
+}
+
+.wrapper {
+    padding: 0;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
